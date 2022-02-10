@@ -4,7 +4,7 @@
   "info": {
     "singularName": "training",
     "pluralName": "trainings",
-    "displayName": "Training",
+    "displayName": "Muscles",
     "description": ""
   },
   "options": {
@@ -12,26 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "SomeThing": {
+    "Text": {
       "type": "string"
     },
-    "Price": {
-      "type": "decimal"
+    "Description": {
+      "type": "richtext"
     },
-    "date": {
-      "type": "date"
-    },
-    "Email": {
-      "type": "email"
-    },
-    "Media": {
+    "Image": {
       "allowedTypes": [
         "images",
         "files",
         "videos"
       ],
       "type": "media",
-      "multiple": false
+      "multiple": true
     }
   }
 }
