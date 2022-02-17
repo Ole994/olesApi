@@ -19,13 +19,7 @@
       "type": "richtext"
     },
     "Image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      "type": "string"
     }
   }
 }
